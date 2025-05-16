@@ -8,8 +8,8 @@ const UP = Vector2(0,-1)
 
 @onready var animator = self.get_node("Animator")
 @onready var sprite = self.get_node("Sprite2D")
-@onready var particle = $GPUParticles2D
 
+@onready var particle = $GPUParticles2D
 
 func get_input():
 	velocity.x = 0
